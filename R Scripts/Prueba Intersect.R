@@ -6,6 +6,11 @@ library(leaflet)
 
 #Se genera la ruta de la db
 
+ruta=getwd("R Scripts")
+setwd(ruta)
+
+substr(ruta, start = 1, stop = lenruta)
+
 ruta_base_datos<-"C:/Users/marce/Universidad de Los Andes/German Augusto Carvajal Murcia - UNIANDES - RAS - SDM/BASES DE DATOS/"
 ruta_base_datos_nueva<-"C:/Users/marce/Documents/Academic/Tesis/Bases de datos/"
 
